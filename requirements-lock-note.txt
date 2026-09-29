@@ -1,0 +1,5 @@
+Reference local replication environment:
+Python 3.11.5
+NumPy 2.4.6
+Pandas 3.0.5
+v2.0.1 also removes dependence on a shared simulator RNG stream.

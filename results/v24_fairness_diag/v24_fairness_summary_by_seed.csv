@@ -1,0 +1,4 @@
+seed,tasks,debt_nonzero,fairness_changed,changed_to_lower_risk,changed_equal_risk,changed_to_higher_risk,safety_violations,mean_risk_reduction_when_changed
+0,100,92,37,27,10,0,0,0.014730075334915348
+1,100,90,18,6,12,0,0,0.00497531919623542
+2,100,91,21,12,9,0,0,0.007336594631029673

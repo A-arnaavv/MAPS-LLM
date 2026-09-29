@@ -1,0 +1,22 @@
+{
+  "input_csv": "results/v21_full/v2_summary_by_seed.csv",
+  "n_seeds": 20,
+  "methods": [
+    "CHEAPEST",
+    "CONTEXTUAL_UCB",
+    "MAPS_LLM_V2",
+    "NSGA2_CONTROL",
+    "SLA_GREEDY",
+    "STRONGEST",
+    "WEIGHTED_SUM"
+  ],
+  "bootstrap_resamples": 20000,
+  "bootstrap_rng_seed": 20260910,
+  "notes": [
+    "Positive advantage values always mean MAPS performed better.",
+    "Wilcoxon tests are paired by seed.",
+    "Holm correction is applied across the six MAPS-vs-baseline comparisons within each metric.",
+    "Friedman tests compare all methods jointly for each metric.",
+    "Aggregation rate is descriptive only and is not treated as a performance objective."
+  ]
+}

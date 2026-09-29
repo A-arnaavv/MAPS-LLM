@@ -1,0 +1,4 @@
+seed,tasks,debt_nonzero,tasks_with_pruning,total_plans_pruned,selected_plan_changed,changed_to_lower_risk,changed_equal_risk,changed_to_higher_risk,mean_risk_reduction_when_changed
+0,100,92,88,133,30,21,7,2,0.012981002033281631
+1,100,90,85,134,13,6,2,5,-0.0010002903740213473
+2,100,91,85,139,20,10,8,2,0.004034026114986309

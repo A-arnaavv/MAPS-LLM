@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the MAPS-LLM manuscript."
+title: "MAPS-LLM: Multiobjective Adaptive Pareto Scheduling for Fair and Risk-Aware Multi-User LLM Serving"
+type: software
+authors:
+  - family-names: Aggarwal
+    given-names: Arnav
+  - family-names: Kumar
+    given-names: Sunil
+  - family-names: Sachar
+    given-names: Silky
+  - family-names: Singh
+    given-names: Harvinder
+  - family-names: Srivastava
+    given-names: Rohit
+  - family-names: Koundal
+    given-names: Deepika
+version: 0.2.5
+date-released: 2026-09-29
+license: MIT

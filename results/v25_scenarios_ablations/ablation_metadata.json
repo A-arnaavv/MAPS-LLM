@@ -1,0 +1,28 @@
+{
+  "maps_version": "v2.5",
+  "tasks_per_run": 500,
+  "seeds": 20,
+  "scenarios": [
+    "balanced",
+    "strict_sla",
+    "cost_pressure",
+    "bursty_multiuser",
+    "specialist_heavy",
+    "model_degradation"
+  ],
+  "ablations": [
+    "MAPS_FULL",
+    "NO_AGGREGATION",
+    "NO_FAIRNESS_DEBT",
+    "NO_UNCERTAINTY",
+    "SCALAR_NO_PARETO"
+  ],
+  "total_runs": 600,
+  "ablation_definitions": {
+    "MAPS_FULL": "Complete MAPS-LLM v2.5.",
+    "NO_AGGREGATION": "Removes multi-model aggregation candidates only.",
+    "NO_FAIRNESS_DEBT": "Disables fairness-based candidate admissibility.",
+    "NO_UNCERTAINTY": "Removes the explicit beta*uncertainty ranking bonus.",
+    "SCALAR_NO_PARETO": "Removes nondominated filtering and Pareto crowding; ranks every admissible candidate using the scalar contextual score."
+  }
+}
